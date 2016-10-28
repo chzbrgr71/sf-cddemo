@@ -5,7 +5,7 @@
   xmlns="http://schemas.microsoft.com/2011/01/fabric"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   >
-  <Description>Brian Redmond - HelloWorld v1.4</Description>
+  <Description>Brian Redmond - HelloWorld</Description>
   <Parameters>
     <Parameter Name="ServiceInstanceCount" DefaultValue="1"></Parameter>
   </Parameters>
