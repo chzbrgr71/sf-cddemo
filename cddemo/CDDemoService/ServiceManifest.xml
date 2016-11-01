@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ServiceManifest Name="CDDemoService" Version="1.0" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ServiceManifest Name="CDDemoService" Version="1.1" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Description>Brian Redmond Service Fabric CD Demo</Description>
   <ServiceTypes>
     <StatelessServiceType ServiceTypeName="CDDemoServiceType"  UseImplicitHost="true"/>
   </ServiceTypes>
-  <CodePackage Name="Code" Version="1.0">
+  <CodePackage Name="Code" Version="1.1">
     <EntryPoint>
       <ContainerHost>
         <ImageName>chzbrgr71/sf-cddemo</ImageName>
