@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ApplicationManifest
   ApplicationTypeName="CDDemoAppType"
-  ApplicationTypeVersion="1.1.2"
+  ApplicationTypeVersion="1.2.1"
   xmlns="http://schemas.microsoft.com/2011/01/fabric"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   >
@@ -10,7 +10,7 @@
     <Parameter Name="ServiceInstanceCount" DefaultValue="3"></Parameter>
   </Parameters>
   <ServiceManifestImport>
-    <ServiceManifestRef ServiceManifestName="CDDemoService" ServiceManifestVersion="1.1.2"/>
+    <ServiceManifestRef ServiceManifestName="CDDemoService" ServiceManifestVersion="1.2.1"/>
     <Policies>
       <ContainerHostPolicies CodePackageRef="Code">
         <PortBinding ContainerPort="8001" EndpointRef="Endpoint1"/>
